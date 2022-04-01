@@ -1,0 +1,58 @@
+#main {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    padding: 1em;
+    overflow-y: auto;
+    overflow-x: auto;
+    margin: 0;
+    background-color: #FFF;
+}
+
+#main h1 {
+    font-size: 26px;
+    font-family: Open Sans;
+    font-weight: 300;
+    color: #555;
+    margin: 0 0 10px;
+}
+
+#main #documentation h2 {
+    color: #343434;
+    font-size: 16px;
+    font-family: Open Sans;
+}
+
+#main #documentation h3, #main #documentation h4 {
+    color: #343434;
+    margin: 8px 0;
+}
+#main #documentation h3 {
+    font-size: 14px;
+    font-family: Open Sans;
+}
+#documentation p {
+    margin: 0 0 16px;
+}
+#main code {
+    font-family: Inconsolata;
+    display: block;
+    white-space: pre;
+    background-color: #eff7ff;
+    border: 1px dotted #ccc;
+    width: 100%;
+    padding: 12px;
+   
+    font-size: 14px;
+    color: #37557e;
+    font-weight: 700;
+}
+table.dashboard, table.data, table.list {
+    border: 1px solid #dedede;
+}
+
+th{
+background-color: #ccc;;
+}
